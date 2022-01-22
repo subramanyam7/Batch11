@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="ABCD">
+  <test name="SmokeTesting" >
+    <classes>
+       <class name="com.magnus.day27.PrivateBanking" />
+       <class name="com.magnus.day27.CorporateBanking" />
+       <class name="com.magnus.day27.AnnotationsDemo" />
+       <class name="com.magnus.day26.ReportingDemo" />       
+    </classes>
+  </test>
+</suite>
