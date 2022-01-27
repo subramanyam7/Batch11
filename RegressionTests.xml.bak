@@ -2,7 +2,6 @@
 
 <suite name="Suite1">
 	<!-- This is TestNG regression testing suite -->
-	<!-- this line is added by Sudha -->
 	<test name="Regression">
 		<classes>
 			<class name="practice.DriverExample" />
