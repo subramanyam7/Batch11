@@ -7,5 +7,6 @@ public class BaseClass {
 		
 	}
 	protected static WebDriver driver = null;
-
+//Variable for browser type
+	protected static String browserType="chrome";
 }

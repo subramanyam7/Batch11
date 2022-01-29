@@ -15,6 +15,7 @@ import org.testng.Reporter;
 public class ScreenshotListener extends BaseClass implements ITestListener {
 
 	public void onTestFailure(ITestResult result) {
+		//This is screen shot code capture automatically when there is test failure.
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyyMMddHHmmss");
 		LocalDateTime now = LocalDateTime.now();
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
